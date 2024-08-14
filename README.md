@@ -3,7 +3,7 @@
 
 <h2> 👨‍💻 About Project</h2>
 Among the first projects of Amin Mirzaei after learning the basic concepts of Visual Basic <br />
-Determines whether the entered integer is positive or negative, then displays it on the console screen <br />
+First, it receives the sequence number from the user, then calculates the sequence of Fibonacci numbers and then displays it on the console screen. <br />
 
 
 <h2> 🏗 Build Information</h2>
