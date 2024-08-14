@@ -4,16 +4,16 @@ Module Module1
 
     Sub Main()
         ' Declare variables to store the number of terms, and the first three Fibonacci numbers
-        Dim numberOfTerms As Integer
-        Dim firstTerm As Integer = 1, secondTerm As Integer = 1, nextTerm As Integer
+        Dim numberOfTerms As Long
+        Dim firstTerm As Long = 1, secondTerm As Long = 1, nextTerm As Long
 
         System.Console.ForegroundColor = ConsoleColor.Cyan
         ' Prompt the user to enter the desired number of terms
         System.Console.Write("Enter the number of terms: ")
         System.Console.ForegroundColor = ConsoleColor.Yellow
         numberOfTerms = System.Console.ReadLine()
-        System.Console.ForegroundColor = ConsoleColor.Gray
-        System.Console.WriteLine("-----------------------------")
+        System.Console.ForegroundColor = ConsoleColor.Magenta
+        System.Console.WriteLine("-----------------------")
         System.Console.ResetColor()
 
         System.Console.ForegroundColor = ConsoleColor.Blue
@@ -25,7 +25,7 @@ Module Module1
 
 
         ' Calculate and print the remaining terms using a loop
-        For i As Integer = 3 To numberOfTerms
+        For i As Long = 3 To numberOfTerms
             ' Calculate the next term by adding the previous two terms
             nextTerm = firstTerm + secondTerm
 
@@ -37,6 +37,13 @@ Module Module1
             secondTerm = nextTerm
         Next
         System.Console.ResetColor()
+        System.Console.WriteLine()
+
+        System.Console.ForegroundColor = ConsoleColor.Magenta
+        System.Console.WriteLine("-----------------------")
+        System.Console.ForegroundColor = ConsoleColor.Red
+        System.Console.WriteLine("Programmer : Amin Mirzaei - Github(UserName) : AminMirzaeiOne")
+
         ' Pause the console to view the output
         System.Console.ReadKey()
     End Sub
