@@ -15,3 +15,9 @@ Determines whether the entered integer is positive or negative, then displays it
 
 <h2> 📜 Program Rules</h2>
 1 - The numbers must be correct<br />
+
+<h2> 💡 Program Help</h2>
+1 - Run the program first<br />
+2 - Then enter the correct number<br />
+3 - Press the Enter button<br />
+4 - View the result
