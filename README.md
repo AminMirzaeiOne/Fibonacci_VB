@@ -16,6 +16,7 @@ First, it receives the sequence number from the user, then calculates the sequen
 
 <h2> 📜 Program Rules</h2>
 1 - The numbers must be correct<br />
+2 - The number should not exceed 90 <br />
 
 <h2> 💡 Program Help</h2>
 1 - Run the program first<br />
