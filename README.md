@@ -21,3 +21,7 @@ Determines whether the entered integer is positive or negative, then displays it
 2 - Then enter the correct number<br />
 3 - Press the Enter button<br />
 4 - View the result
+
+
+<h2>📷 Screenshots</h2>
+<img width="674" alt="Capture15" src="https://github.com/user-attachments/assets/02858a94-83c2-4a00-b19f-e5fd2bce167e">
