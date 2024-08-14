@@ -20,7 +20,7 @@ First, it receives the sequence number from the user, then calculates the sequen
 
 <h2> 💡 Program Help</h2>
 1 - Run the program first<br />
-2 - Then enter the correct number<br />
+2 - Enter the number, for example (12)<br />
 3 - Press the Enter button<br />
 4 - View the result
 
