@@ -7,8 +7,10 @@ Module Module1
         Dim numberOfTerms As Integer
         Dim firstTerm As Integer = 1, secondTerm As Integer = 1, nextTerm As Integer
 
+        System.Console.ForegroundColor = ConsoleColor.Cyan
         ' Prompt the user to enter the desired number of terms
         System.Console.Write("Enter the number of terms: ")
+        System.Console.ForegroundColor = ConsoleColor.Yellow
         numberOfTerms = System.Console.ReadLine()
 
         ' Print the first two terms
