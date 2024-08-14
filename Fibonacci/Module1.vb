@@ -12,10 +12,17 @@ Module Module1
         System.Console.Write("Enter the number of terms: ")
         System.Console.ForegroundColor = ConsoleColor.Yellow
         numberOfTerms = System.Console.ReadLine()
+        System.Console.ForegroundColor = ConsoleColor.Gray
+        System.Console.WriteLine("-----------------------------")
+        System.Console.ResetColor()
 
+        System.Console.ForegroundColor = ConsoleColor.Blue
         ' Print the first two terms
         System.Console.WriteLine("Fibonacci Sequence:")
+        System.Console.ForegroundColor = ConsoleColor.White
+        System.Console.BackgroundColor = ConsoleColor.DarkCyan
         System.Console.Write("{0}, {1}", firstTerm, secondTerm)
+
 
         ' Calculate and print the remaining terms using a loop
         For i As Integer = 3 To numberOfTerms
@@ -29,7 +36,7 @@ Module Module1
             firstTerm = secondTerm
             secondTerm = nextTerm
         Next
-
+        System.Console.ResetColor()
         ' Pause the console to view the output
         System.Console.ReadKey()
     End Sub
